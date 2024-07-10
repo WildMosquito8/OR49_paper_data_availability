@@ -43,9 +43,13 @@ This project provides resources and tools related to our research "A conserved o
 
 ## Usage
 
+## Sample Data
+
+A sample video from the experiment is provided in the directory. You can use this video to test the YOLOv8 model and verify its functionality.
+
 ### Running the YOLOv8 Model
 
-1. Place "Video sample.mp4" file in the `input` directory.
+1. Place the "Video_sample.mp4" file in the input directory:
 2. Run the YOLOv8 model using the provided weights:
 
 ```bash
@@ -54,27 +58,15 @@ yolo track model=model/weights/best.pt source=/path/Video_sample.mp4 save_txt=tr
 
 ### Analyzing the Data
 
-1. Use the provided python scripts to analyze the .csv dataframes:
-2. Use the provided R scripts to analyze the .csv dataframes:
-   ```R
-  "Normalized_landing_git.R"
-   "Distance_comparison_git.R"
-   "Duration_comparison_git.R"
-   "X_VS_Y_and_detection_over_time_git.R
-   ```
+1. Use the provided Jupyternotebook to analyze the Yolov8 output:
+   'Processing_and_analysis_YOLOv8.ipynb'
+   
+2. Use the provided R scripts to analyze the .csv files:
+  ```r
+  Normalized_landing_git.R
+  Distance_comparison_git.R
+  Duration_comparison_git.R
+  X_VS_Y_and_detection_over_time_git.R
+  ```
 
-## Sample Data
-
-A sample video from the experiment is provided in the `sample_data` directory. You can use this video to test the YOLOv8 model and verify its functionality.
-
-## Contributing
-
-We welcome contributions to improve this project. Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contact
-
-For any questions or inquiries, please contact us at [your.email@example.com](mailto:your.email@example.com).
+For any questions or inquiries, please contact us [Evyatar Sar-shalom](mailto:evyatar.sar-shalom@huji.mai.ac.il).
