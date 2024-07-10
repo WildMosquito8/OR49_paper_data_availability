@@ -1,15 +1,11 @@
 
 # Mosquito Detection and Analysis
 
-This project provides resources and tools related to our research on mosquito detection using a custom YOLOv8 model. The repository includes the model weights, code for data collection and analysis, and sample data for experimentation.
-
-## Paper Information
-
-You can find our paper on BioRxiv: [Title of the Paper](https://www.biorxiv.org/content/10.1101/2023.08.01.548337v2).
+This project provides resources and tools related to our research "A conserved odorant receptor underpins borneol-mediated repellency in culicine mosquitoes". The repository includes our YOLOv8 custom model weights, code for data collection and analysis, and sample data for experimentation.
 
 ## Repository Contents
 
-- **YOLOv8 Model Weights**: Custom-trained YOLOv8 model specifically designed to detect mosquitoes.
+- **YOLOv8 Model Weights**: A compressed folder custom-trained YOLOv8 model specifically designed to detect mosquitoes.
 - **Code**:
   - **Python**: Scripts used to gather YOLO output.
   - **R**: Scripts used to analyze the gathered data.
@@ -20,9 +16,9 @@ You can find our paper on BioRxiv: [Title of the Paper](https://www.biorxiv.org/
 
 ### Requirements
 
-- Python 3.x
-- R
-- YOLOv8 framework
+- Python 3.10.12
+- R 4.0.2
+- Ultralytics 8.0.228
 - Other dependencies as listed in `requirements.txt` and `R_packages.txt`
 
 ### Installation
