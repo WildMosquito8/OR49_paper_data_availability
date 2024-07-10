@@ -39,13 +39,13 @@ This project provides resources and tools related to our research "A conserved o
    install.packages("dependencies from R_packages.txt")
    \`\`\`
 
-4. Ensure YOLOv8 is installed and properly configured. Refer to the YOLOv8 [documentation](https://github.com/ultralytics/yolov8) for setup instructions.
+4. Ensure YOLOv8 is installed and properly configured. https://github.com/ultralytics/ultralytics
 
 ## Usage
 
 ### Running the YOLOv8 Model
 
-1. Place your video file in the `input` directory.
+1. Place sample file in the `input` directory.
 2. Run the YOLOv8 model using the provided weights:
    \`\`\`bash
    python run_yolo.py --weights yolov8_weights.pth --input input/video.mp4 --output output/
