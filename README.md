@@ -45,11 +45,11 @@ This project provides resources and tools related to our research "A conserved o
 
 ### Running the YOLOv8 Model
 
-1. Place sample file in the `input` directory.
+1. Place "Video sample.mp4" file in the `input` directory.
 2. Run the YOLOv8 model using the provided weights:
-   \`\`\`bash
-   python run_yolo.py --weights yolov8_weights.pth --input input/video.mp4 --output output/
-   \`\`\`
+   
+'yolo track model=model/weights/best.pt source=/path/Video_sample.mp4 save_txt=true name=output conf=0.5 iou=0.5'
+   
 
 ### Analyzing the Data
 
