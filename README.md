@@ -47,16 +47,21 @@ This project provides resources and tools related to our research "A conserved o
 
 1. Place "Video sample.mp4" file in the `input` directory.
 2. Run the YOLOv8 model using the provided weights:
-   
-'yolo track model=model/weights/best.pt source=/path/Video_sample.mp4 save_txt=true name=output conf=0.5 iou=0.5'
-   
+
+```bash
+yolo track model=model/weights/best.pt source=/path/Video_sample.mp4 save_txt=true name=output conf=0.5 iou=0.5
+```   
 
 ### Analyzing the Data
 
-1. Use the provided R scripts to analyze the YOLOv8 output:
-   \`\`\`R
-   source("analyze_data.R")
-   \`\`\`
+1. Use the provided python scripts to analyze the .csv dataframes:
+2. Use the provided R scripts to analyze the .csv dataframes:
+   ```R
+  "Normalized_landing_git.R"
+   "Distance_comparison_git.R"
+   "Duration_comparison_git.R"
+   "X_VS_Y_and_detection_over_time_git.R
+   ```
 
 ## Sample Data
 
