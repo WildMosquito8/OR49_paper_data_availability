@@ -1,0 +1,9 @@
+
+# R packages required for the project
+
+install.packages("ggplot2")
+install.packages("dplyr")
+install.packages("ggpubr")
+install.packages("caret")
+install.packages("rcompanion")
+install.packages("multcompView")
