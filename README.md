@@ -9,7 +9,7 @@ This project provides resources and tools related to our research "A conserved o
 - **Code**:
   - **Python**: Scripts used to gather YOLO output.
   - **R**: Scripts used to analyze the gathered data.
-  - **Notebooks**: Notebook with an example of the model detection
+  - **Notebooks**: Notebook "exploratory_analysis.ipynb" with an example of the model detection.
 - **Video sample**: A 10-second video from the experiment, provided as an example of the input and output video.
 - **YOLOv8 output**: A compressed folder containing all `.txt` files of the output.
 
