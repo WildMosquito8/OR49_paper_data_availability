@@ -1,16 +1,16 @@
 
 # Mosquito detection and analysis
 
-This project provides resources and tools related to our research "A conserved odorant receptor underpins borneol-mediated repellency in culicine mosquitoes". The repository includes our YOLOv8 custom model weights, code for data collection and analysis, and sample data for experimentation.
+This project provides resources and tools related to our research "A conserved odorant receptor underpins borneol-mediated repellency in culicine mosquitoes". The repository includes our YOLOv8 custom model weights performance, code for data collection and analysis, and sample data for experimentation.
 
 ## Repository contents
 
-- **YOLOv8 model weights**: A compressed folder custom-trained YOLOv8 model specifically designed to detect mosquitoes.
+- **YOLOv8 model weights**: Please contact us to get the weights.
 - **Code**:
   - **Python**: Scripts used to gather YOLO output.
   - **R**: Scripts used to analyze the gathered data.
-- **Video Sample**: A 15-second video from the experiment, provided to test the model.
-- **YOLOv8 Output**: A compressed folder containing all `.txt` files of the output.
+- **Video sample**: A 10-second video from the experiment, provided as an example of the input and output video.
+- **YOLOv8 output**: A compressed folder containing all `.txt` files of the output.
 
 ## Setup instructions
 
@@ -45,12 +45,11 @@ This project provides resources and tools related to our research "A conserved o
 
 ## Sample data
 
-A sample video from the experiment is provided in the directory. You can use this video to test the YOLOv8 model and verify its functionality.
+A sample video from the experiment with detections is provided in data -> sample_data.
 
 ### Running the YOLOv8 model
 
-1. Place the "Video_sample.mp4" file in the input directory:
-2. Run the YOLOv8 model using the provided weights:
+2. We Ran the YOLOv8 model using the provided weights:
 
 ```bash
 yolo track model=model/weights/best.pt source=/path/Video_sample.mp4 save_txt=true name=output conf=0.5 iou=0.5
@@ -62,7 +61,7 @@ yolo track model=model/weights/best.pt source=/path/Video_sample.mp4 save_txt=tr
    
    'Processing_and_analysis_YOLOv8.ipynb'
    
-3. Use the provided R scripts to analyze the .csv files:
+3. Use the provided R scripts to analyze the .csv files in data -> input:
   ```r
   Normalized_landing_git.R
   Distance_comparison_git.R
