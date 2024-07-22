@@ -49,7 +49,7 @@ A sample video from the experiment with detections is provided in data -> sample
 
 ### Running the YOLOv8 model
 
-2. We Ran the YOLOv8 model using the provided weights:
+2. We ran the YOLOv8 model using the provided weights:
 
 ```bash
 yolo track model=model/weights/best.pt source=/path/Video_sample.mp4 save_txt=true name=output conf=0.5 iou=0.5
