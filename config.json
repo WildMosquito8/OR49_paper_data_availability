@@ -3,5 +3,5 @@
     "tracking_output_path": "data/sample_data/tracking_output.csv",
     "general_visits_output": "data/sample_data/general_visits_output.csv",
     "plots_output": "data/sample_data/plots_output",
-    "samples": 90
+    "samples": 100
 }
