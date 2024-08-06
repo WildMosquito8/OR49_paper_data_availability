@@ -1,7 +1,14 @@
 {
-    "labels_dir": "data/YOLO detector output sampels",
-    "tracking_output_path": "data/sample_data/tracking_output.csv",
-    "general_visits_output": "data/sample_data/general_visits_output.csv",
-    "plots_output": "data/sample_data/plots_output",
-    "samples": 100
+    "process_data": {
+        "labels_dir": "data/YOLO detector output sampels",
+        "tracking_output_path": "data/sample_data/tracking_output.csv",
+        "general_visits_output": "data/sample_data/general_visits_output.csv",
+        "plots_output": "data/sample_data/plots_output",
+        "samples": 100
+    },
+    "analyse_output": {
+        "plots_directory": "data/plots",
+        "fps": 25,
+        "duration": 600
+    }
 }

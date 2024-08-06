@@ -3,5 +3,4 @@ pandas
 ultralytics
 gdown
 ipykernel
-googleapiclient
-google
+seaborn
