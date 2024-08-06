@@ -31,5 +31,5 @@ class YOLOv8DataVisualizer:
             if output_dir:
                 if not os.path.exists(output_dir):
                     os.makedirs(output_dir)
-                plt.savefig(os.path.join(output_dir, f"{treatment}_trajectories.png"))
+                plt.savefig(os.path.join('data/sample_data', f"{treatment}_trajectories.png"))
             plt.show()

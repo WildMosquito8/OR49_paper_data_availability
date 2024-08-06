@@ -7,13 +7,10 @@
             "request": "launch",
             "program": "main.py",
             "console": "integratedTerminal",
+            "pythonPath": "/Users/evyatars/opt/anaconda3/envs/sp/bin/python",
             "args": [
-                "--labels_dir",
-                "data/labels",
-                "--tracking_output_path",
-                "data/tracking_output/test.csv",
-                "--samples",
-                "100"
+                "--config_path",
+                "config.json"
             ]
         }
     ]
