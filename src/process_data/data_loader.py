@@ -1,6 +1,6 @@
 import os
 import concurrent.futures
-from src.common import Parser
+from src.process_data.common import Parser
 
 
 class YOLOv8DataLoader:

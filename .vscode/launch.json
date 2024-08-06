@@ -5,7 +5,7 @@
             "name": "mosquitos_tyest",
             "type": "debugpy",
             "request": "launch",
-            "program": "main.py",
+            "program": "worker.py",
             "console": "integratedTerminal",
             "pythonPath": "/Users/evyatars/opt/anaconda3/envs/sp/bin/python",
             "args": [
