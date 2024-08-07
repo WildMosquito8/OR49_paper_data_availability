@@ -1,6 +1,6 @@
-
-# Python packages required for the project
-
 matplotlib
 pandas
 ultralytics
+gdown
+ipykernel
+seaborn

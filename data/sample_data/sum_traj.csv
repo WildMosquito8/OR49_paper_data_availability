@@ -1,0 +1,10 @@
+treatment,time_interval,rep,counts
+b2,0,rep2,2
+b2,3,rep1,1
+b2,5,rep1,1
+b2,9,rep1,1
+cnt,0,rep1,1
+cnt,0,rep3,1
+cnt,1,rep2,2
+cnt,5,rep2,1
+cnt,6,rep3,1
